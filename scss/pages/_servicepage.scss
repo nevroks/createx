@@ -1,0 +1,309 @@
+.service__header {
+    position: relative;
+    padding-top: 152px;
+    background-color: $gray-200;
+    overflow: hidden;
+    .lead-regular {
+        color: $gray-color-700;
+        max-width: 600px;
+        padding-bottom: 115px;
+    }
+    &::after {
+        content: url('/assets/pages/servicepage/headerBgImg.png');
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+.service__header-title {
+    margin: 40px 0 24px;
+    color: inherit;
+}
+
+.weOffer {
+    display: flex;
+    column-gap: 105px;
+    padding-top: 120px;
+    margin-bottom: 180px;
+}
+
+.weOffer__content-title {
+    margin-bottom: 60px;
+}
+
+.weOffer__content__sub-title {
+    display: flex;
+    column-gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    &::before {
+        content: url('/assets/icons/mathSigns/redMinusIco.svg');
+    }
+    &:last-child {
+        &::before {
+            content: url('/assets/icons/mathSigns/redPlusIco.png');
+        }
+    }
+}
+
+.weOffer__content-text {
+    max-width: 376px;
+    margin: 12px 0 24px;
+}
+
+.thatsHowWeDoIt-list {
+    margin: 60px 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thatsHowWeDoIt-list__item-header {
+    display: flex;
+    column-gap: 23px;
+    position: relative;
+}
+
+.thatsHowWeDoIt-list__item-header__title {
+    color: $gray-color-400;
+    z-index: 2;
+    transition: color 0.7s;
+}
+
+.thatsHowWeDoIt-list__item-header__title-img {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.6s;
+    transform: translate(-29%, -25%);
+    z-index: 1;
+}
+
+.thatsHowWeDoIt-list__item-content {
+    margin-top: 16px;
+}
+
+.thatsHowWeDoIt-list__item-content__text {
+    max-width: 285px;
+    margin-top: 8px;
+}
+
+.ourBenefits {
+    text-align: center;
+    background-color: $gray-color-900;
+    padding-top: 80px;
+    padding-bottom: 126px;
+    position: relative;
+    h1 {
+        color: $white-color;
+    }
+    .base-regular {
+        color: $white-color;
+        opacity: 0.6;
+    }
+    .lead-bold {
+        color: $white-color;
+    }
+}
+
+.ourBenefits-text {
+    margin: 24px 0 60px;
+}
+
+.ourBenefits__list {
+    display: flex;
+}
+
+.ourBenefits__list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 94px;
+    position: relative;
+    &:first-child {
+        padding-left: 0;
+    }
+    &::after {
+        content: url('/assets/divider.png');
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: -0%;
+    }
+    p {
+        max-width: 285px;
+    }
+    &:last-child {
+        padding-right: 0;
+        &::after {
+            content: none;
+        }
+    }
+}
+
+.ourBenefits__list-item__title {
+    margin: 24px 0 8px;
+}
+
+.ourBenefits-btn {
+    position: absolute;
+    bottom: -26px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.slider4 {
+    padding-top: 120px;
+}
+
+.slider4-line {
+    overflow: hidden;
+    padding-bottom: 125px;
+}
+
+.slider4-line-line {
+    display: flex;
+    column-gap: 30px;
+    width: 3750px;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+
+.slider4-line__item {
+    width: 390px;
+    border-radius: 4px;
+    height: 440px;
+    background: $white-color;
+    position: relative;
+    overflow-y: hidden;
+    /* shadow/small */
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.slider4-line__item-content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.slider4-line__item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    margin: 16px 0 24px;
+    background-color: $white-color;
+}
+
+.slider4-line__item-button {
+    height: 0px;
+    display: flex;
+    transition: all 1s;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    button {
+        margin-bottom: 24px;
+        display: block;
+        // &.active {
+        //     display: block;
+        // }
+    }
+}
+
+.slider4__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+    div {
+        display: flex;
+        column-gap: 24px;
+    }
+}
+
+.slider4-footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    margin-bottom: 64px;
+}
+
+.pricing {
+    text-align: center;
+    background-color: $gray-200;
+}
+
+.pricing-text {
+    margin: 24px 0 60px;
+}
+
+.pricing__table {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid $gray-color-300;
+    background: $white-color;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    tr {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: 1fr;
+        grid-template-columns: 39.8% 1fr 1fr 1fr;
+        padding: 18px 0 18px 24px;
+        &:nth-child(1) {
+            padding: 24px 0 24px 24px;
+        }
+        &:last-child {
+            padding: 24px 0 24px 24px;
+        }
+        &:nth-child(even) {
+            background: $gray-200;
+        }
+    }
+    td {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    th {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(1) {
+            justify-content: flex-start;
+            align-items: flex-end;
+            height: 100%;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 150%;
+            p {
+                color: $gray-color-900;
+            }
+        }
+        p {
+            span {
+                color: $gray-color-900;
+                text-align: center;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 150%;
+            }
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            text-align: center;
+            color: $gray-color-700;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 150%;
+        }
+    }
+}

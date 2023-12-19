@@ -1,0 +1,99 @@
+.button-red,
+.button-white {
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.button-red {
+    color: $white-color;
+    background: $primary-color;
+    transition: ease-in-out 0.9s;
+    &:hover {
+        background: #FC3300;
+    }
+    * {
+        color: $white-color;
+    }
+}
+
+.button-white {
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    background: $white-color;
+}
+
+.idleOutlineButton {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    /* 314.286% */
+    letter-spacing: 0.5px;
+    width: 230px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid $primary-color;
+    background-color: $white-color;
+    color: $primary-color;
+    transition: ease-in-out 0.9s;
+    &:hover {
+        background-color: $primary-color;
+        color: $white-color;
+        * {
+            color: $white-color;
+        }
+    }
+    * {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 44px;
+        /* 314.286% */
+        letter-spacing: 0.5px;
+        color: $primary-color;
+    }
+}
+
+.outline-large {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 278px;
+    height: 52px;
+    color: $white-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px;
+    /* 325% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid $white-color;
+    text-transform: uppercase;
+}
+
+.large-btn {
+    font-size: 16px;
+    line-height: 52px;
+    width: 390px;
+    height: 52px;
+    &.home {
+        width: 224px;
+    }
+}
+
+.regular-btn {
+    font-size: 14px;
+    line-height: 44px;
+    width: 198px;
+    height: 44px;
+}
+
+.small-btn {
+    font-size: 12px;
+    line-height: 36px;
+    width: 147px;
+    height: 36px;
+    text-transform: uppercase;
+}

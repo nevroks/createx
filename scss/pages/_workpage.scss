@@ -1,0 +1,175 @@
+.workPage-header {
+    padding-top: 152px;
+    padding-bottom: 179px;
+    background-color: $gray-200;
+    position: relative;
+    &::after {
+        content: url('/assets/pages/workpage/headerBgImg.png');
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .display1 {
+        color: inherit;
+        margin: 40px 0 24px;
+    }
+    .lead-regular {
+        color: $gray-color-700;
+        max-width: 600px;
+    }
+}
+
+.ourWork__categories-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -60px;
+    margin-bottom: 120px;
+}
+
+.ourWork__categories-list__item {
+    position: relative;
+    padding: 32px 10px;
+    cursor: pointer;
+    width: 230px;
+    display: flex;
+    row-gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    background: $white-color;
+    transition: all 0.4s;
+    /* shadow/small */
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    &.active {
+        color: $white-color;
+        border-radius: 4px;
+        background: $primary-color;
+        box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(255, 90, 48, 0.08), 0px 26px 24px -10px rgba(255, 90, 48, 0.10), 0px 60px 80px -20px rgba(255, 90, 48, 0.16);
+        &::before {
+            content: url('');
+        }
+    }
+    &::before {
+        content: url('');
+    }
+    &:nth-child(1) {
+        &.active {
+            &::before {
+                content: url('/assets/icons/additional/whiteHouseIco.svg');
+            }
+        }
+        &::before {
+            content: url('/assets/icons/additional/redHouseIco.svg');
+        }
+    }
+    &:nth-child(2) {
+        &.active {
+            &::before {
+                content: url('/assets/icons/additional/whiteConstructionIco.svg');
+            }
+        }
+        &::before {
+            content: url('/assets/icons/additional/redConstructionIco.svg');
+        }
+    }
+    &:nth-child(3) {
+        &.active {
+            &::before {
+                content: url('/assets/icons/additional/whitePantoneIco.svg');
+            }
+        }
+        &::before {
+            content: url('/assets/icons/additional/redPlanIco.svg');
+        }
+    }
+    &:nth-child(4) {
+        &.active {
+            &::before {
+                content: url('/assets/icons/additional/whitePantoneIco.svg');
+            }
+        }
+        &::before {
+            content: url('/assets/icons/additional/redPantoneIco.svg');
+        }
+    }
+    &:nth-child(5) {
+        &.active {
+            &::before {
+                content: url('/assets/icons/additional/whitePaintingIco.svg');
+            }
+        }
+        &::before {
+            content: url('/assets/icons/additional/redPaintingIco.svg');
+        }
+    }
+}
+
+.ourWork__projects-item {
+    width: 390px;
+    border-radius: 4px;
+    height: 440px;
+    background: $white-color;
+    position: relative;
+    overflow-y: hidden;
+    /* shadow/small */
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.ourWork__projects-item-content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.ourWork__projects-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    margin: 16px 0 24px;
+    background-color: $white-color;
+}
+
+.ourWork__projects-item-button {
+    height: 0px;
+    display: flex;
+    transition: all 1s;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    button {
+        margin-bottom: 24px;
+        display: block;
+        // &.active {
+        //     display: block;
+        // }
+    }
+}
+
+.ourWork__projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.ourClients {
+    padding-top: 180px;
+}
+
+.ourClients__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourClients__header--img-container {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}

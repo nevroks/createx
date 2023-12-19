@@ -1,0 +1,152 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+$white-color:#fff;
+$primary-color:#FF5A30;
+$gray-color-900:#1E212C;
+$gray-color-800:#424551;
+$gray-color-700:#787A80;
+$gray-color-600:#9A9CA5;
+$gray-color-400:#D7DADD;
+$gray-color-300:#E5E8ED;
+$gray-200:#F4F5F6;
+h1 {
+    color: $gray-color-900;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+h2 {
+    color: $gray-color-900;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+h3 {
+    color: $gray-color-900;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+h4 {
+    color: $white-color;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+h6 {
+    color: $white-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 24px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+header,
+section,
+footer {
+    padding: 0 calc(50% - 615px);
+}
+
+.display1 {
+    color: $white-color;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 130%;
+    /* 93.6px */
+    letter-spacing: 1px;
+}
+
+.small-bold {
+    color: $gray-color-800;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+
+/* lead type of font */
+
+.lead-bold {
+    color: $gray-color-900;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.lead-regular {
+    color: $white-color;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%
+}
+
+
+/* regular type of font */
+
+.large-regular {
+    color: $gray-color-700;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.small-regular {
+    color: $gray-color-800;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.extrasmall-regular {
+    color: $white-color;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+/* base type of font */
+
+.base-bold {
+    color: $gray-color-900;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.base-regular {
+    color: $gray-color-700;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.breadcrumps {
+    display: flex;
+    column-gap: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    a {
+        color: $gray-color-800;
+        &:hover {
+            text-decoration-line: underline;
+        }
+    }
+    li {
+        &:last-child {
+            color: $gray-color-600 !important;
+        }
+    }
+}

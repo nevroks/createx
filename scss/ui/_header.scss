@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    &.transparent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+}
+
+.header-nav {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+
+.header-nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.header-info .large-regular {
+    color: $gray-color-900;
+}
+
+.header-info {
+    display: flex;
+    column-gap: 36px;
+}
+
+.header-info__text {
+    display: flex;
+    &::before {
+        content: '';
+        margin-right: 14px;
+    }
+    &:first-child::before {
+        content: url('/assets/icons/phoneIco.svg');
+    }
+    &:last-child::before {
+        content: url('/assets/icons/chatIco.svg');
+    }
+}

@@ -1,0 +1,49 @@
+.services__header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    background-color: $gray-200;
+    &::after {
+        content: url('../../assets/pages/servicespage/headerBgImg.png');
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.services__header-wrapper {
+    margin: 152px 0 179px;
+}
+
+.services__header-title {
+    color: inherit;
+    margin: 40px 0 24px;
+}
+
+.services__header-text {
+    max-width: 600px;
+    color: $gray-color-700;
+}
+
+.services__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+    margin-bottom: 120px;
+}
+
+.services__list-item {
+    display: flex;
+    column-gap: 80px;
+}
+
+.services__list-item__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.services__list-item__content-text {
+    margin: 24px 0 48px;
+}
