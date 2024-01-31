@@ -672,7 +672,7 @@ footer {
   opacity: 0.4;
 }
 .video__video-link::before {
-  content: url("./assets/icons/largePlayBtnIco.svg");
+  content: url("../assets/icons/largePlayBtnIco.svg");
   position: absolute;
   left: 50%;
   top: 50%;
@@ -782,7 +782,7 @@ footer {
 }
 
 .ourServices {
-  background-image: url("./assets/pages/homepage/OurCoreValues/bg-image.png");
+  background-image: url("../assets/pages/homepage/OurCoreValues/bg-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
