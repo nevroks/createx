@@ -41,9 +41,9 @@
         margin-right: 14px;
     }
     &:first-child::before {
-        content: url('./assets/icons/phoneIco.svg');
+        content: url('../assets/icons/phoneIco.svg');
     }
     &:last-child::before {
-        content: url('./assets/icons/chatIco.svg');
+        content: url('../assets/icons/chatIco.svg');
     }
 }

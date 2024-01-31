@@ -422,10 +422,10 @@ footer {
   margin-right: 14px;
 }
 .header-info__text:first-child::before {
-  content: url("./assets/icons/phoneIco.svg");
+  content: url("../assets/icons/phoneIco.svg");
 }
 .header-info__text:last-child::before {
-  content: url("./assets/icons/chatIco.svg");
+  content: url("../assets/icons/chatIco.svg");
 }
 
 .footer {
@@ -583,7 +583,7 @@ footer {
   align-items: flex-start;
   justify-content: center;
   position: relative;
-  background-image: url("./assets/pages/homepage/firstSliderBG.jpg");
+  background-image: url("../assets/pages/homepage/firstSliderBG.jpg");
   padding: 0 345px;
   width: 1920px;
   height: 988px;
