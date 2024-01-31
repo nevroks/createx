@@ -316,32 +316,32 @@
     }
     
     .ourServices__list-item:nth-child(2) {
-        background-image: url('./assets/pages/homepage/OurCoreValues/projectDevelopmentBG.jpg');
+        background-image: url('../assets/pages/homepage/OurCoreValues/projectDevelopmentBG.jpg');
         &::before {
-            content: url('./assets/icons/additional/redPlanIco.svg');
+            content: url('../assets/icons/additional/redPlanIco.svg');
         }
         &:hover::before {
-            content: url('./assets/icons/additional/whitePlanIco.svg');
+            content: url('../assets/icons/additional/whitePlanIco.svg');
         }
     }
     
     .ourServices__list-item:nth-child(3) {
-        background-image: url('./assets/pages/homepage/OurCoreValues/interiorDefignBG.jpg');
+        background-image: url('../assets/pages/homepage/OurCoreValues/interiorDefignBG.jpg');
         &::before {
-            content: url('./assets/icons/additional/redPantoneIco.svg');
+            content: url('../assets/icons/additional/redPantoneIco.svg');
         }
         &:hover::before {
-            content: url('./assets/icons/additional/whitePantoneIco.svg');
+            content: url('../assets/icons/additional/whitePantoneIco.svg');
         }
     }
     
     .ourServices__list-item:nth-child(4) {
-        background-image: url('./assets/pages/homepage/OurCoreValues/repairsBG.jpg');
+        background-image: url('../assets/pages/homepage/OurCoreValues/repairsBG.jpg');
         &::before {
-            content: url('./assets/icons/additional/redPaintingIco.svg');
+            content: url('../assets/icons/additional/redPaintingIco.svg');
         }
         &:hover::before {
-            content: url('./assets/icons/additional/whitePantoneIco.svg');
+            content: url('../assets/icons/additional/whitePantoneIco.svg');
         }
     }
     

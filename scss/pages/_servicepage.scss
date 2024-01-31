@@ -9,7 +9,7 @@
         padding-bottom: 115px;
     }
     &::after {
-        content: url('./assets/pages/servicepage/headerBgImg.png');
+        content: url('../assets/pages/servicepage/headerBgImg.png');
         position: absolute;
         top: 0;
         right: 0;
@@ -39,11 +39,11 @@
     align-items: flex-start;
     justify-content: center;
     &::before {
-        content: url('./assets/icons/mathSigns/redMinusIco.svg');
+        content: url('../assets/icons/mathSigns/redMinusIco.svg');
     }
     &:last-child {
         &::before {
-            content: url('./assets/icons/mathSigns/redPlusIco.png');
+            content: url('../assets/icons/mathSigns/redPlusIco.png');
         }
     }
 }
@@ -129,7 +129,7 @@
         padding-left: 0;
     }
     &::after {
-        content: url('./assets/divider.png');
+        content: url('../assets/divider.png');
         position: absolute;
         height: 100%;
         top: 0;

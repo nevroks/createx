@@ -4,7 +4,7 @@
     display: flex;
     background-color: $gray-200;
     &::after {
-        content: url('./assets/pages/servicespage/headerBgImg.png');
+        content: url('../assets/pages/servicespage/headerBgImg.png');
         position: absolute;
         top: 0;
         right: 0;
