@@ -45,7 +45,7 @@
         align-items: flex-start;
         justify-content: center;
         position: relative;
-        background-image: url('../../assets/pages/homepage/firstSliderBG.jpg');
+        background-image: url('./assets/pages/homepage/firstSliderBG.jpg');
         padding: 0 345px;
         width: 1920px;
         height: 988px;
@@ -131,7 +131,7 @@
             opacity: 0.4;
         }
         &::before {
-            content: url('/assets/icons/largePlayBtnIco.svg');
+            content: url('./assets/icons/largePlayBtnIco.svg');
             position: absolute;
             left: 50%;
             top: 50%;
@@ -241,7 +241,7 @@
     }
     
     .ourServices {
-        background-image: url('/assets/pages/homepage/OurCoreValues/bg-image.png');
+        background-image: url('./assets/pages/homepage/OurCoreValues/bg-image.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -306,42 +306,42 @@
     }
     
     .ourServices__list-item:nth-child(1) {
-        background-image: url('/assets/pages/homepage/OurCoreValues/constructionBG.jpg');
+        background-image: url('./assets/pages/homepage/OurCoreValues/constructionBG.jpg');
         &::before {
-            content: url('/assets/icons/additional/redConstructionIco.svg');
+            content: url('./assets/icons/additional/redConstructionIco.svg');
         }
         &:hover::before {
-            content: url('/assets/icons/additional/whiteConstructionIco.svg');
+            content: url('./assets/icons/additional/whiteConstructionIco.svg');
         }
     }
     
     .ourServices__list-item:nth-child(2) {
-        background-image: url('/assets/pages/homepage/OurCoreValues/projectDevelopmentBG.jpg');
+        background-image: url('./assets/pages/homepage/OurCoreValues/projectDevelopmentBG.jpg');
         &::before {
-            content: url('/assets/icons/additional/redPlanIco.svg');
+            content: url('./assets/icons/additional/redPlanIco.svg');
         }
         &:hover::before {
-            content: url('/assets/icons/additional/whitePlanIco.svg');
+            content: url('./assets/icons/additional/whitePlanIco.svg');
         }
     }
     
     .ourServices__list-item:nth-child(3) {
-        background-image: url('/assets/pages/homepage/OurCoreValues/interiorDefignBG.jpg');
+        background-image: url('./assets/pages/homepage/OurCoreValues/interiorDefignBG.jpg');
         &::before {
-            content: url('/assets/icons/additional/redPantoneIco.svg');
+            content: url('./assets/icons/additional/redPantoneIco.svg');
         }
         &:hover::before {
-            content: url('/assets/icons/additional/whitePantoneIco.svg');
+            content: url('./assets/icons/additional/whitePantoneIco.svg');
         }
     }
     
     .ourServices__list-item:nth-child(4) {
-        background-image: url('/assets/pages/homepage/OurCoreValues/repairsBG.jpg');
+        background-image: url('./assets/pages/homepage/OurCoreValues/repairsBG.jpg');
         &::before {
-            content: url('/assets/icons/additional/redPaintingIco.svg');
+            content: url('./assets/icons/additional/redPaintingIco.svg');
         }
         &:hover::before {
-            content: url('/assets/icons/additional/whitePantoneIco.svg');
+            content: url('./assets/icons/additional/whitePantoneIco.svg');
         }
     }
     

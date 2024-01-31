@@ -4,7 +4,7 @@
     background-color: $gray-200;
     position: relative;
     &::after {
-        content: url('/assets/pages/workpage/headerBgImg.png');
+        content: url('./assets/pages/workpage/headerBgImg.png');
         position: absolute;
         right: 0;
         top: 0;
@@ -56,51 +56,51 @@
     &:nth-child(1) {
         &.active {
             &::before {
-                content: url('/assets/icons/additional/whiteHouseIco.svg');
+                content: url('./assets/icons/additional/whiteHouseIco.svg');
             }
         }
         &::before {
-            content: url('/assets/icons/additional/redHouseIco.svg');
+            content: url('./assets/icons/additional/redHouseIco.svg');
         }
     }
     &:nth-child(2) {
         &.active {
             &::before {
-                content: url('/assets/icons/additional/whiteConstructionIco.svg');
+                content: url('./assets/icons/additional/whiteConstructionIco.svg');
             }
         }
         &::before {
-            content: url('/assets/icons/additional/redConstructionIco.svg');
+            content: url('./assets/icons/additional/redConstructionIco.svg');
         }
     }
     &:nth-child(3) {
         &.active {
             &::before {
-                content: url('/assets/icons/additional/whitePantoneIco.svg');
+                content: url('./assets/icons/additional/whitePantoneIco.svg');
             }
         }
         &::before {
-            content: url('/assets/icons/additional/redPlanIco.svg');
+            content: url('./assets/icons/additional/redPlanIco.svg');
         }
     }
     &:nth-child(4) {
         &.active {
             &::before {
-                content: url('/assets/icons/additional/whitePantoneIco.svg');
+                content: url('./assets/icons/additional/whitePantoneIco.svg');
             }
         }
         &::before {
-            content: url('/assets/icons/additional/redPantoneIco.svg');
+            content: url('./assets/icons/additional/redPantoneIco.svg');
         }
     }
     &:nth-child(5) {
         &.active {
             &::before {
-                content: url('/assets/icons/additional/whitePaintingIco.svg');
+                content: url('./assets/icons/additional/whitePaintingIco.svg');
             }
         }
         &::before {
-            content: url('/assets/icons/additional/redPaintingIco.svg');
+            content: url('./assets/icons/additional/redPaintingIco.svg');
         }
     }
 }
