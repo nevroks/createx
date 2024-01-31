@@ -306,12 +306,12 @@
     }
     
     .ourServices__list-item:nth-child(1) {
-        background-image: url('./assets/pages/homepage/OurCoreValues/constructionBG.jpg');
+        background-image: url('../assets/pages/homepage/OurCoreValues/constructionBG.jpg');
         &::before {
-            content: url('./assets/icons/additional/redConstructionIco.svg');
+            content: url('../assets/icons/additional/redConstructionIco.svg');
         }
         &:hover::before {
-            content: url('./assets/icons/additional/whiteConstructionIco.svg');
+            content: url('../assets/icons/additional/whiteConstructionIco.svg');
         }
     }
     
